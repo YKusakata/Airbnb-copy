@@ -1,0 +1,662 @@
+html{
+    font-size: 16px;
+    line-height: 16px;
+}
+.cl-gre{
+    color:#028489;
+}
+.hd-logo{
+    font-size: 2rem;
+    line-height: 5rem;
+    color: #028489;
+    padding-right:20px;
+}
+.hd{
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 5rem;
+    color: #484848;
+    padding-right:30px;
+}
+h1{
+    font-size: 3.75rem;
+    line-height: 4rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+}
+h3{
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+}
+.xl-1{
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+}
+.xl-2{
+    font-size: 48px;
+    line-height: 48px;
+}
+.l-1{
+    line-height: 1.75rem;
+}
+.l-2{
+    line-height: 1.5rem;
+}
+.l-3{
+    line-height: 1.375rem;
+}
+.l-4{
+    line-height: 1.75rem;
+}
+.l-5{
+    line-height: 1.25rem;
+}
+.s-1{
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+}
+.s-2{
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+}
+.xs-1{
+    font-size: 0.75rem;
+    line-height: 1.063rem;
+}
+.ft-logo{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+header{
+    border-bottom:1px solid #DDDDDD;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+.header-box{
+    margin: 0 30px;
+}
+.header-logo{
+    position: relative;
+    float: left;
+}
+.header-right{
+    position: absolute;
+    top: 20px;
+    right: 75px;
+}
+.border-box{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 25px;
+}
+.border{
+    width: 60px;
+    border-top: 1px solid black;
+    margin: 0 auto;
+}
+.top{
+    height: 600px;
+    margin-top: 80px;
+    background-image: url("../img/0100_greeting.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.tp-logo{
+    font-size: 2.25rem;
+    line-height: 5rem;
+    color: white;
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    
+}
+.tp-title{
+    width: 875px;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    left:80px;
+    display: none;
+}
+.start{
+    width: 460px;
+    height: 420px;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    right:90px;
+}
+.start-box{
+    padding: 30px;
+}
+form{
+    width: 460px;
+    margin:0 auto;
+}
+.inputs{
+    width: 400px;
+    line-height: 48px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.inputs-1{
+    width: 225px;
+    height: 48px;
+    margin-right: 15px;
+}
+.inputs-2{
+    width: 160px;
+    height: 48px;
+}
+.main{
+    width: 1050px;
+    margin: 0 auto;
+}
+.qa-body{
+    display: inline-block;
+    line-height: 75px;
+    vertical-align: middle;
+    border-bottom: 1px solid #DDDDDD;
+}
+.subtitle{
+    margin-top: 100px;
+}
+
+.bottom{
+    height: 440px;
+    margin: 0 100px;
+    background-image: url("../img/0600_manetizing.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bottom-title{
+    width: 450px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 125px;
+}
+.bottom-title h1{
+    text-align: left;
+}
+.bottom-btn{
+    position: absolute;
+    top: 265px;
+    left:125px;
+}
+footer{
+    height: 510px;
+    background-color: #F7F7F7;
+    border-top: 1px solid #DDDDDD;
+}
+
+footer.container{
+    margin: 0;
+}
+
+.ft-body{
+    padding: 0;
+}
+.ft-body a{
+    display: block;
+}
+.ft-company{
+    padding: 0px;
+}
+.ft-var{
+    padding-top:45px;
+    padding-left: 0px;
+}
+.ft-sns{
+    text-align: right;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-70{
+    margin-top: 70px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-65{
+    margin-bottom: 65px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+.mx-f{
+    margin: 0 80px;
+}
+.my-bottom{
+    margin: 100px 100px 65px 100px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.bd-t{
+    border-top: 1px solid #DDDDDD;
+}
+@media screen and (max-width:1024px){
+    .main{
+        width: 100%;
+        padding: 0 250px;
+    }
+    header{
+        display: none;
+    }
+    .top{
+        height: 310px;
+        margin-top: 0;
+        margin-bottom: 300px;
+    }
+    .top::before{
+        background-color: rgba(0,0,0,0.3);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: ' ';
+    }
+    .tp-logo{
+        display: block;
+    }
+    .tp-title{
+        display: block;
+    }
+    .start{
+        width: 700px;
+        top: 310px;
+        left: 175px;
+    }
+    form{
+        width: 700px;
+    }
+    .inputs{
+        width: 640px;
+    }
+    .inputs-1{
+        width: 400px;
+    }
+    .inputs-2{
+         width: 225px;
+    }
+    .start h4{
+        display: none;
+    }
+    h1{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 900;
+    }
+    h2{
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+        font-weight: 400;
+    }
+    .xl-1{
+        font-size: 1rem;
+    }
+    .l-3{
+        font-size: 0.875rem;
+        line-height:1.125rem;
+    }
+    .dennis-2 img{
+        padding-top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+    .safety-img img{
+        width: 550px;
+    }
+    .tessa-1 img{
+        padding-top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+    .hosting-1 img{
+        width: 153px;
+        height: auto;
+    }
+    .hosting-2 img{
+        width: 153px;
+        height: auto;
+    }
+    .hosting-3 img{
+        width: 153px;
+        height: auto;
+    }
+    .bottom{
+        margin: 0;
+    }
+    .my-bottom{
+        margin-top: 100px;
+    }
+    .bottom-title{
+        width: 350px;
+        position: absolute;
+        left: 175px;
+    }
+    .bottom-title h1{
+        text-align: left;
+    }
+    .bottom-btn{
+        position: absolute;
+        top: 265px;
+        left:175px;
+    }    
+    footer{
+        height: 1024px;
+    }
+    footer.row{
+        padding-bottom: 0;
+    }
+    .ft-body{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #DDDDDD;
+    }
+    .ft-body a{
+        width: 270px;
+        margin: 0;
+        line-height: 2.5rem;
+    }
+    .ft-body p{
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .bd-t{
+        border-top: 0px solid #DDDDDD;
+    }
+    .ft-lang{
+        order: 1;
+        width: 50%;
+        text-align: right;
+    }
+    .ft-sns{
+        order: 2;
+        width: 50%;
+        text-align: left;
+    }
+    .ft-company{
+        order: 3;
+        width:100%;
+        margin:0 auto;
+        display: block;
+    }
+    .ft-var{
+        order: 4;
+        margin:0 auto;
+        padding-top: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px){
+    .main{
+        width: 100%;
+        padding: 0 50px;
+    }
+    .tp-title{
+        width: 600px;
+        top: 200px;
+        left:80px;
+    }    
+    .start{
+        left:30px;
+    }
+    .hosting-1 img{
+        width: 190px;
+        height: auto;
+    }
+    .hosting-2 img{
+        width: 190px;
+        height: auto;
+    }
+    .hosting-3 img{
+        width: 190px;
+        height: auto;
+    }
+    footer{
+        height: 1162px;
+    }
+    .ft-cr a{
+        display: block;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px){
+    h1{
+        font-size: 2.125rem;
+        line-height:2.250rem;
+        font-weight: 800;
+    }
+    .main{
+        width: 100%;
+        padding: 0 5px;
+    }
+    .tp-title{
+        width: 400px;
+        left: 20px;
+    }
+    .start{
+        width: 405px;
+        top: 310px;
+        left: 10px;
+    }
+    form{
+        width: 345px;
+    }
+    .inputs{
+        width: 345px;
+        display: block;
+    }
+    .inputs-1{
+        width: 345px;
+        margin-bottom: 10px;
+    }
+    .inputs-2{
+         width: 345px;
+    }   
+    .top{
+        margin-bottom: 350px;
+    }
+
+    .dennis-2{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .dennis-2 img{
+        width: 380px;
+        height: 380px;
+    }
+    .dennis-1{
+        order: 2;
+    }
+    .safety-img img{
+        width: 400px;
+        height: auto;
+    }
+    .hosting-1{
+        margin-bottom: 20px;
+    }
+    .hosting-1 img{
+        float: left;
+        margin-right: 10px;
+    }
+    .bottom-title{
+        left: 50px;
+    }
+    .bottom-btn{
+        left: 50px;
+    }   
+    .mx-f{
+        margin: 0 20px;
+    }
+    footer{
+        height: 1530px;
+    }
+    .ft-company{
+        text-align: center;
+    }
+    .ft-body a{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 375px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .tp-title{
+        width: 370px;
+        left: 5px;
+    }
+    .start-box{
+        padding: 30px 0 0 0;
+    }
+    .start{
+        width: 370px;
+        top: 310px;
+        left: 2px;
+    }
+    form{
+        width: 370px;
+    }
+    .inputs{
+        width: 370px;
+        display: block;
+    }
+    .inputs-1{
+        width: 370px;
+        margin-bottom: 10px;
+    }
+    .inputs-2{
+         width: 370px;
+    }   
+    .dennis-2{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .dennis-2 img{
+        width: 335px;
+        height: 335px;
+    }
+    .dennis-1{
+        order: 2;
+    }
+    .safety-img img{
+        width: 365px;
+        height: auto;
+    }
+
+    footer{
+        height: 1572px;
+    }
+    .bottom-title{
+        left: 20px;
+    }
+    .bottom-btn{
+        left: 20px;
+    }   
+}
+@media screen and (max-width: 320px){
+    h1{
+        font-size: 2rem;
+    }
+    .tp-title{
+        width: 300px;
+        left: 5px;
+    }
+    .start-box{
+        padding: 30px 0 0 0;
+    }
+    .start{
+        width: 310px;
+        top: 310px;
+        left: 5px;
+    }
+    form{
+        width: 310px;
+    }
+    .inputs{
+        width: 310px;
+        display: block;
+    }
+    .inputs-1{
+        width: 310px;
+        margin-bottom: 10px;
+    }
+    .inputs-2{
+         width: 310px;
+    }   
+    .dennis-2{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .dennis-2 img{
+        width: 280px;
+        height: 280px;
+    }
+    .dennis-1{
+        order: 2;
+    }
+    .safety-img img{
+        width: 310px;
+        height: auto;
+    }
+    .hosting-1 img{
+        width: 120px;
+        height: auto;
+    }
+    footer{
+        height: 210px;
+    }
+    .bottom-title{
+        width: 300px;
+        left: 20px;
+    }
+    .bottom-btn{
+        left: 20px;
+    }   
+}
